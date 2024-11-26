@@ -2,7 +2,7 @@
 # from msilib import PID_LASTPRINTED
 # from random import *  #*-kõik funksionid
 # from math import * #pi kasutaminseks
-import math
+# import math
 
 
 # # # #Ülesanene 1
