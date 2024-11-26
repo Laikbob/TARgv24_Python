@@ -2,6 +2,8 @@
 # from msilib import PID_LASTPRINTED
 # from random import *  #*-kõik funksionid
 # from math import * #pi kasutaminseks
+import math
+
 
 # # # #Ülesanene 1
 # # # print("Tere tulemast!")
@@ -32,3 +34,36 @@
 # l=float(input("Ümbermööt: "))
 # d=l/pi
 # print(f"Läbimõõdu suurus on {round(d,2)}")
+
+# # Ülesanne 5
+# N = float(input("Sisestage ristküliku laius (N): "))
+# M = float(input("Sisestage ristküliku kõrgus (M): "))
+# diagonaal = math.sqrt(N**2 + M**2)
+# print(f"Ristküliku diagonaal on {diagonaal:.2f} ühikut.")
+
+# # Üleasnne 6
+# aeg = float(input("Mitu tundi kulus sõiduks? "))
+# teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+# kiirus = teepikkus / aeg  # Parandatud valem
+# print(f"Sinu kiirus oli {kiirus:.2f} km/h")
+
+# # Üleasnne 7
+# numbrid = []
+# for i in range(5):
+#     arv = int(input(f"Sisestage arv {i+1}: "))
+#     numbrid.append(arv)
+# keskmine = sum(numbrid) / len(numbrid)
+# print(f"Nende arvude aritmeetiline keskmine on {keskmine:.2f}")
+
+# # Üleasnne 8
+# print("   @..@")
+# print("  (----)")
+# print(" ( \\__/ )")
+# print('^^ "" ^^')
+
+# # Üleasnne 9 
+# a = int(input("Sisestage kolmnurga esimese külje pikkus: "))
+# b = int(input("Sisestage kolmnurga teise külje pikkus: "))
+# c = int(input("Sisestage kolmnurga kolmanda külje pikkus: "))
+# P = a + b + c
+# print(f"Kolmnurga ümbermõõt on {P}")
