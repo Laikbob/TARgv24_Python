@@ -5,7 +5,7 @@ from email.message import EmailMessage
 import imghdr
 
 file = None
-
+# добовление img
 def choose_img():
     global file
     file = filedialog.askopenfilename()
