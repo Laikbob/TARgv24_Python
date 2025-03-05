@@ -12,7 +12,7 @@ def choose_img():
     added.configure(text = file)
     added.configure(font=("Arial", 14, "italic"), fg="blue")
     return file
-
+# send
 def send():
     to = email.get()
     message_box = message.get()
